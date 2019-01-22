@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #57B9DA;
+  background: linear-gradient(to left, #e91e63, #3f51b5)
+}
+
+.container{
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  padding:10px;
+  border: 3px solid #666;
+  width: 600px;
+  height: 200px;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.content{
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border: 3px solid #666;
+  left: 30px;
+  width: 600px;
+  height: 200px;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.main{
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border: 3px solid #666;
+  width: 600px;
+  height: 275px;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.picturespace{
+  width:600px;
+  height:250px;
+  position:absolute;
+  top:540px;
+  left:50%;
+}
+
+.pictureeng{
+width:600px;
+height:200px;
+position:absolute;
+top:320px;
+left:50%;
+}
+
+.picturepy{
+  width:600px;
+  height:200px;
+  position:absolute;
+  top:90px;
+  left:50%;
+}
+
+::-webkit-progress-bar {
+    background: #1E0944;
+}
+
+::-webkit-progress-value {
+    background: #6DB499;
+}
+
+::-moz-progress-bar {
+    background: #020202;
+}
+
+progress {
+    display: block;
+    color: red;
+    border: 2px solid #61FDBF;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25px;
+    line-height: 21px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+footer {
+  font-size: 12px;
+  padding: 25px ;
+}
+
+footer .col-sm-8 {
+  display: flex-flow-root;
+  justify-content: flex-end;
+
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
